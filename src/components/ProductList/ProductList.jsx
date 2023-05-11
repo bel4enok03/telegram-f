@@ -5,10 +5,10 @@ import { useTelegram } from '../../hooks/useTelegram';
 import { useCallback, useEffect } from 'react';
 
 const products = [
-	{ id: '1', title: 'Джинсы', price: 5000, description: 'Синего цвета, прямые', img:'https://diamondelectric.ru/images/446/445438/djinsi_scool_1.jpg' },
-	{ id: '2', title: 'Куртка', price: 12000, description: 'Зеленого цвета, теплая' },
-	{ id: '3', title: 'Джинсы 2', price: 5000, description: 'Синего цвета, прямые' },
-	{ id: '4', title: 'Куртка 8', price: 122, description: 'Зеленого цвета, теплая' },
+	{ id: '1', title: 'Смартфон realme C33 3/32 ГБ, черный', price: 5390, description: 'Смартфон, кабель microUSB, адаптер питания 10W, ключ для лота SIM, инструкция, буклет с информацией и гарантийным сертификатом', img:'https://ir.ozone.ru/s3/multimedia-h/wc700/6510286337.jpg' },
+	{ id: '2', title: 'Ritter Sport Лесной орех шоколад молочный с обжаренным орехом лещины, 100 г', price: 128, description: 'Дробленных орех в молочном шоколаде.', img:'https://ir.ozone.ru/s3/multimedia-q/wc700/6622453562.jpg'  },
+	{ id: '3', title: 'TRESemmé шампунь beauty-full volume плотность и объем, с коллагеном, бережное очищение без силиконов 400 мл', price: 277, description: 'Головокружительный объем от самых корней? Попробуй и убедись сама.', img:'https://ir.ozone.ru/s3/multimedia-h/wc700/6539382473.jpg' },
+	{ id: '4', title: 'Сухой корм для кошек Pro Plan Sterilised для поддержания здоровья почек после стерилизации, с лососем, 1,5 кг', price: 1393, description: 'лосось высокого качества (включая головы, кости, филе) (20%) , сухой белок птицы, рис, кукуруза, соевый протеиновый порошок, пшеничный глютен, пшеничная крупка, белок гороха, яичный порошок, минеральные вещества, животные жиры, высушенная мякоть свеклы, аминокислоты, гидролизат белка животного происхождения, дрожжи, консерванты, витамины, рыбий жир, антиоксиданты.', img:'https://ir.ozone.ru/s3/multimedia-t/wc700/6286696973.jpg' },
 	{ id: '5', title: 'Джинсы 3', price: 5000, description: 'Синего цвета, прямые' },
 	{ id: '6', title: 'Куртка 7', price: 600, description: 'Зеленого цвета, теплая' },
 	{ id: '7', title: 'Джинсы 4', price: 5500, description: 'Синего цвета, прямые' },
