@@ -6,6 +6,7 @@ import ProductList from './components/ProductList/ProductList';
 import Header from './components/Header/Header';
 import Form from './components/Form/Form';
 
+
 function App() {
 	const { tg } = useTelegram();
 
@@ -15,9 +16,9 @@ function App() {
 
 	return (
 		<div className="App">
-			<Header/>
+			<Header />
 			<Routes>
-				<Route index element={<ProductList/>} />
+				<Route index element={<ProductList />} />
 				<Route path={'form'} element={<Form/>} />
 			</Routes>
 		</div>
